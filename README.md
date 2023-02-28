@@ -69,3 +69,11 @@ SELECT * FROM `exam_student` ORDER BY `vote` DESC;
 7.Seleziona tutti i voti degli studenti in ordine crescente: 
 
 SELECT * FROM `exam_student` ORDER BY `vote` ASC;
+
+------------------------------------------------------
+
+8.Fai la media di tutti i voti degli studenti:
+
+SELECT AVG(`vote`) FROM `exam_student`;
+
+------------------------------------------------------
