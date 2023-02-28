@@ -59,3 +59,13 @@ SELECT * FROM `exams` WHERE `date` LIKE "2020-06-%" OR `date` LIKE "2020-07-%";
 SELECT COUNT(`id`) FROM `students`;
 
 ------------------------------------------------------
+
+6.Seleziona tutti i voti degli studenti in ordine descrescente:
+
+SELECT * FROM `exam_student` ORDER BY `vote` DESC;
+
+------------------------------------------------------
+
+7.Seleziona tutti i voti degli studenti in ordine crescente: 
+
+SELECT * FROM `exam_student` ORDER BY `vote` ASC;
