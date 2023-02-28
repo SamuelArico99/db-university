@@ -53,3 +53,9 @@ SELECT * FROM `teachers` WHERE `phone` IS NOT NULL;
 SELECT * FROM `exams` WHERE `date` LIKE "2020-06-%" OR `date` LIKE "2020-07-%";
 
 ------------------------------------------------------
+
+5.Seleziona il totale degli studenti:
+
+SELECT COUNT(`id`) FROM `students`;
+
+------------------------------------------------------
