@@ -44,6 +44,12 @@ SELECT * FROM `teachers` WHERE `phone` IS NULL;
 
 4.Seleziona SOLO gli insegnanti che hanno un numero di telefono: 
 
-SELECT * FROM `teachers` WHERE `phone` IS NULL;
+SELECT * FROM `teachers` WHERE `phone` IS NOT NULL;
+
+------------------------------------------------------
+
+5.Seleziona tutti gli appelli di esame dei mesi di giugno e luglio 2020;
+
+SELECT * FROM `exams` WHERE `date` LIKE "2020-06-%" OR `date` LIKE "2020-07-%";
 
 ------------------------------------------------------
