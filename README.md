@@ -8,3 +8,6 @@ SELECT * FROM `students` WHERE name LIKE "E%";
 
 2.Seleziona tutti gli studenti il cui nome finisce per E:
 SELECT * FROM `students` WHERE name LIKE "%E";
+
+2.Seleziona tutti gli studenti il cui nome ha all' interno una E:
+SELECT * FROM `students` WHERE name LIKE "%E%";
